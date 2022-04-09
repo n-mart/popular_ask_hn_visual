@@ -12,3 +12,10 @@ Type in 'pip install -r requirements.txt' to automatically install the required 
 
 Then, run the program by executing main.py with the command 'python main.py'.
 
+## Configuration
+
+Currently, you can configure the number of Ask-HN posts that you want to include in the plot. By default, this is set to 20, however you can configure it to be a different value by going into main.py, and entering an integer into the my_api_call instance, as shown below:
+
+my_api_call = pav.PopularAsksVisual(*number*)
+
+Be sure though, not to enter a very large number. There are only so many posts that the Hacker News API can store, and if you surpass that number, you will recieve a warning in the terminal output. To compensate, the program will use all of the posts within the Hacker News API.
