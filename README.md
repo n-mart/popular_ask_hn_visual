@@ -2,6 +2,8 @@
 
 This is a program that by default fetches the top 20 'Ask HN'-style posts from the Hacker News API based on the number of votes each post gets using the *requests* module. It then uses the Python module *plotly* to create a both informative and interactive visualisation on the data retrieved from the API.
 
+![Plot generated from Ask-HN Visual](/images/example_plot.png "Example plot")
+
 ## Installation instructions
 
 I reccomend running this program in a virtual environment, using a module such as venv. This is so that all the packages used in the program are isolated from your system, and can easily be removed by removing the folder containing this project.
